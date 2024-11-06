@@ -12,8 +12,8 @@ const Skills = () => {
                     <ImLeaf /> <span>Some Skills</span>
                 </div>
             </div>
-            <div>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-[1px] p-4">
+            <div className='p-4'>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-[1px] shadow-xl ">
                     <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
                         <FaHtml5 size={40} className=' text-orange-600' />
                         <h1>Html</h1>

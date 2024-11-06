@@ -12,8 +12,20 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Project from "@/components/Project";
 import Contact from "@/components/Contact";
+import { useRef } from "react";
 
 export default function Home() {
+  const section1Ref = useRef(null);
+  const section2Ref = useRef(null);
+  const section3Ref = useRef(null);
+  const section4Ref = useRef(null);
+  const section5Ref = useRef(null);
+
+  const scrollToSection = (ref: React.RefObject<HTMLElement>) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <>
       <div className="reletive">
@@ -31,21 +43,21 @@ export default function Home() {
                 <h3 className="text-center">Full stack Engineer</h3>
               </div>
               <div className="space-y-4 ">
-                <div className="bg-orange-400 rounded-lg flex items-center text-white space-x-2 py-1 px-2">
+                <button onClick={() => scrollToSection(section1Ref)} className="bg-orange-400 rounded-lg flex items-center text-white space-x-2 py-1 px-2">
                   <FaHome /><span>Home</span>
-                </div>
-                <div className="bg-orange-400 rounded-lg flex items-center text-white space-x-2 py-1 px-2">
+                </button>
+                <button onClick={() => scrollToSection(section2Ref)} className="bg-orange-400 rounded-lg flex items-center text-white space-x-2 py-1 px-2">
                   <RiContactsFill /><span>About</span>
-                </div>
-                <div className="bg-orange-400 rounded-lg flex items-center text-white space-x-2 py-1 px-2">
+                </button>
+                <button onClick={() => scrollToSection(section3Ref)} className="bg-orange-400 rounded-lg flex items-center text-white space-x-2 py-1 px-2">
                   <BiNetworkChart /><span>Skills</span>
-                </div>
-                <div className="bg-orange-400 rounded-lg flex items-center text-white space-x-2 py-1 px-2">
+                </button>
+                <button onClick={() => scrollToSection(section4Ref)} className="bg-orange-400 rounded-lg flex items-center text-white space-x-2 py-1 px-2">
                   <VscProject /><span>Project</span>
-                </div>
-                <div className="bg-orange-400 rounded-lg flex items-center text-white space-x-2 py-1 px-2">
+                </button>
+                <button onClick={() => scrollToSection(section5Ref)} className="bg-orange-400 rounded-lg flex items-center text-white space-x-2 py-1 px-2">
                   <MdEmail /><span>Contact</span>
-                </div>
+                </button>
               </div>
               <div className=" flex justify-evenly w-full ">
                 <FaTwitter size={25} /><FaGithub size={25} />
@@ -53,22 +65,22 @@ export default function Home() {
             </div>
           </div>
           <div className="bg-slate-200 w-full">
-            <div className="py-4 px-10">
+            <div ref={section1Ref} className="py-4 px-10">
               <Header />
             </div>
             <div className="p-10">
-              <Me />
+              <Me scrollToSection={scrollToSection} section4Ref={section4Ref} section5Ref={section5Ref} />
             </div>
-            <div className="p-10">
+            <div ref={section2Ref} className="p-10">
               <About />
             </div>
-            <div className="p-10">
+            <div ref={section3Ref} className="p-10">
               <Skills />
             </div>
-            <div className="p-10">
+            <div ref={section4Ref} className="p-10">
               <Project />
             </div>
-            <div className="p-10">
+            <div ref={section5Ref} className="p-10">
               <Contact />
             </div>
           </div>
