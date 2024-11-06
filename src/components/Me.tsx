@@ -19,7 +19,7 @@ const Me = () => {
                 </div>
             </div>
             <div className='w-[50%]'>
-                <Image src="/image/LogoImage.png" layout="responsive" alt="Logo" width={120} height={120} className="object-contain" />
+                <Image src="/image/LogoImage.png" layout="responsive" alt="Logo" width={120} height={120} className="object-contain  transform scale-x-[-1]" />
             </div>
         </div>
     )

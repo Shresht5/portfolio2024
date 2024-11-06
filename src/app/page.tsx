@@ -8,6 +8,7 @@ import { RiContactsFill } from "react-icons/ri";
 import { VscProject } from "react-icons/vsc";
 import Header from "@/components/Header";
 import Me from "@/components/Me";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -54,6 +55,9 @@ export default function Home() {
             </div>
             <div className="p-10">
               <Me />
+            </div>
+            <div className="p-10">
+              <About />
             </div>
           </div>
         </div>
