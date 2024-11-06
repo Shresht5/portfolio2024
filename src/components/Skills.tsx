@@ -6,7 +6,7 @@ import { SiExpress, SiJavascript, SiMongodb, SiNextdotjs, SiTailwindcss, SiTypes
 
 const Skills = () => {
     return (
-        <div>
+        <div className='space-y-10 mx-auto max-w-6xl'>
             <div>
                 <div className="bg-orange-400 rounded-full inline-flex items-center text-white space-x-2 py-1 px-2 ">
                     <ImLeaf /> <span>Some Skills</span>
@@ -63,7 +63,6 @@ const Skills = () => {
                         <h1>Git</h1>
                     </div>
                 </div>
-
             </div>
         </div>
     )

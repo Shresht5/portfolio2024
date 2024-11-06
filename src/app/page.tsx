@@ -10,6 +10,8 @@ import Header from "@/components/Header";
 import Me from "@/components/Me";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
+import Project from "@/components/Project";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -64,10 +66,10 @@ export default function Home() {
               <Skills />
             </div>
             <div className="p-10">
-              <About />
+              <Project />
             </div>
             <div className="p-10">
-              <About />
+              <Contact />
             </div>
           </div>
         </div>
