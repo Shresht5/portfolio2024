@@ -5,10 +5,10 @@ import { SiLeetcode, SiStreamrunners } from 'react-icons/si'
 
 const About = () => {
     return (
-        <div className='space-y-6'>
+        <div className='space-y-6 mx-auto max-w-6xl '>
             <div>
-                <div className="bg-orange-400 rounded-full inline-flex items-center text-white space-x-2 py-1 px-2">
-                    <ImLeaf /> <span>About</span>
+                <div className="bg-orange-400 rounded-full inline-flex items-center text-white space-x-2 py-1 px-2 ">
+                    <ImLeaf /> <span>About Me</span>
                 </div>
             </div>
             <div>
@@ -30,7 +30,6 @@ const About = () => {
                     <h1 className='font-bold text-lg'>currently</h1>
                     <h1 className='text-gray-700'>available</h1>
                 </div>
-
             </div>
         </div>
     )

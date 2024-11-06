@@ -9,6 +9,7 @@ import { VscProject } from "react-icons/vsc";
 import Header from "@/components/Header";
 import Me from "@/components/Me";
 import About from "@/components/About";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -55,6 +56,15 @@ export default function Home() {
             </div>
             <div className="p-10">
               <Me />
+            </div>
+            <div className="p-10">
+              <About />
+            </div>
+            <div className="p-10">
+              <Skills />
+            </div>
+            <div className="p-10">
+              <About />
             </div>
             <div className="p-10">
               <About />

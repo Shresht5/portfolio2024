@@ -5,8 +5,8 @@ import { VscProject } from 'react-icons/vsc'
 
 const Me = () => {
     return (
-        <div className='flex flex-col-reverse sm:flex-row sm:h-screen sm:items-center mx-auto max-w-[1500px]'>
-            <div className='w-[50%]'>
+        <div className='flex flex-col-reverse sm:flex-row sm:h-screen sm:items-center mx-auto max-w-6xl'>
+            <div className='sm:w-[50%]'>
                 <h1 className='text-4xl font-bold text-gray-700'>Hi, I'm Shresht a</h1>
                 <h1 className='text-4xl font-bold text-orange-400'>Software Developer</h1>
                 <h1 className='text-4xl font-bold text-gray-700'>From India</h1>
@@ -18,7 +18,7 @@ const Me = () => {
                     <span>Contact</span><FaLongArrowAltRight />
                 </div>
             </div>
-            <div className='w-[50%]'>
+            <div className='sm:w-[50%]'>
                 <Image src="/image/LogoImage.png" layout="responsive" alt="Logo" width={120} height={120} className="object-contain  transform scale-x-[-1]" />
             </div>
         </div>
