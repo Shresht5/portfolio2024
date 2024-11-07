@@ -20,7 +20,7 @@ const Project = () => {
                         <Image
                             src="/image/Portfolip.jpg"
                             alt="Logo"
-                            layout="fill"  // Fills the container's height and width
+                            layout="fill"
                             objectFit="cover"
                             className='w-full absolute rounded-t-xl'
                         />
@@ -42,7 +42,7 @@ const Project = () => {
                         <Image
                             src="/image/Blog20241JPG.jpg"
                             alt="Logo"
-                            layout="fill"  // Fills the container's height and width
+                            layout="fill"
                             objectFit="cover"
                             className='w-full absolute rounded-t-xl'
                         />
@@ -64,7 +64,7 @@ const Project = () => {
                         <Image
                             src="/image/Shizzle1.jpg"
                             alt="Logo"
-                            layout="fill"  // Fills the container's height and width
+                            layout="fill"
                             objectFit="cover"
                             className='w-full absolute rounded-t-xl'
                         />
