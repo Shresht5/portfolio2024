@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { BiLogoTypescript } from 'react-icons/bi'
@@ -9,14 +10,20 @@ import { TbBrandReact } from 'react-icons/tb'
 
 const Project = () => {
     return (
-        <div className='space-y-10'>
+        <div className='space-y-10 max-w-6xl mx-auto'>
             <div className="bg-orange-400 rounded-full inline-flex items-center text-white space-x-2 py-1 px-2 ">
                 <ImLeaf /> <span>Some Of My Work</span>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
                 <div className='View bg-white rounded-xl shadow-xl'>
-                    <div className=' '>
-                        <img src='/image/Portfolip.jpg' alt='portfolio' className="object-contain rounded-t-xl" />
+                    <div className="relative pb-[50%]">
+                        <Image
+                            src="/image/Portfolip.jpg"
+                            alt="Logo"
+                            layout="fill"  // Fills the container's height and width
+                            objectFit="cover"
+                            className='w-full absolute rounded-t-xl'
+                        />
                     </div>
                     <div className='inline-flex p-3 text-3xl space-x-2 text-orange-600'>
                         <BiLogoTypescript /><RiNextjsFill /><SiMongodb />
@@ -31,8 +38,14 @@ const Project = () => {
                     </div>
                 </div>
                 <div className='View bg-white rounded-xl shadow-xl'>
-                    <div className=' '>
-                        <img src='/image/Blog20241JPG.jpg' alt='portfolio' className="object-contain rounded-t-xl" />
+                    <div className="relative pb-[50%]">
+                        <Image
+                            src="/image/Blog20241JPG.jpg"
+                            alt="Logo"
+                            layout="fill"  // Fills the container's height and width
+                            objectFit="cover"
+                            className='w-full absolute rounded-t-xl'
+                        />
                     </div>
                     <div className='inline-flex p-3 text-3xl space-x-2 text-orange-600'>
                         <SiJavascript /><TbBrandReact /><SiMongodb />
@@ -47,8 +60,14 @@ const Project = () => {
                     </div>
                 </div>
                 <div className='View bg-white rounded-xl shadow-xl'>
-                    <div className=' '>
-                        <img src='/image/Shizzle1.jpg' alt='portfolio' className="object-contain rounded-t-xl" />
+                    <div className="relative pb-[50%]">
+                        <Image
+                            src="/image/Shizzle1.jpg"
+                            alt="Logo"
+                            layout="fill"  // Fills the container's height and width
+                            objectFit="cover"
+                            className='w-full absolute rounded-t-xl'
+                        />
                     </div>
                     <div className='inline-flex p-3 text-3xl space-x-2 text-orange-600'>
                         <SiJavascript /><TbBrandReact /><SiMongodb />
