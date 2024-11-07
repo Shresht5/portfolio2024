@@ -14,7 +14,9 @@ const Me: React.FC<ContactProps> = ({ scrollToSection, section4Ref, section5Ref 
         <div className='flex flex-col-reverse sm:flex-row sm:my-36 sm:items-center mx-auto max-w-6xl'>
             <div className='sm:w-[50%]'>
                 <h1 className='text-4xl font-bold text-gray-700'>Hi, I'm Shresht a</h1>
-                <h1 className='text-4xl font-bold text-orange-400'>Software Developer</h1>
+                <div className='inline-flex'>
+                    <h1 className='typing-text text-4xl  font-bold text-orange-400'>Developer</h1>
+                </div>
                 <h1 className='text-4xl font-bold text-gray-700'>From India</h1>
                 <h1 className='my-5 text-gray-700'>Full-stack developer by day, tech explorer by night. Fueled by code, coffee, and curiosity.</h1>
                 <div className='flex items-center'>

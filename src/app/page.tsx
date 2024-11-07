@@ -32,7 +32,7 @@ export default function Home() {
       <div className="reletive">
         <div className="flex">{/*sidebar */}
           <div className="relative">
-            <div className="hidden sticky top-0 shadow-lg shadow-r-4 w-[220px] py-[10%] flex-col h-screen items-center space-y-10 p-6 sm:flex ">
+            <div className="hidden sticky top-0 shadow-lg shadow-r-4 w-[220px] py-[30%] flex-col h-screen items-center space-y-10 p-6 sm:flex ">
               <div className="">
                 <Image src="/image/LogoImage.png" alt="Logo" width={120} height={120} />
               </div>
@@ -40,7 +40,7 @@ export default function Home() {
                 <h2 className="text-xl font-semibold ">Shreshta Balapure</h2>
                 <h3 className="text-center">Full stack Engineer</h3>
               </div>
-              <div className="space-y-4 ">
+              <div className="space-y-4 flex flex-col">
                 <button onClick={() => scrollToSection(section1Ref)} className="bg-orange-400 rounded-lg flex items-center text-white space-x-2 py-1 px-2">
                   <FaHome /><span>Home</span>
                 </button>
@@ -57,6 +57,7 @@ export default function Home() {
                   <MdEmail /><span>Contact</span>
                 </button>
               </div>
+              <div className="bg-slate-600 h-[1px] w-full "></div>
               <div className=" flex justify-evenly w-full text-2xl ">
                 <Link href='https://x.com/BalapureShresht' target='_blank' >
                   <FaTwitter className="hover:text-orange-500" />
