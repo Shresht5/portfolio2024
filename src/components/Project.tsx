@@ -20,8 +20,7 @@ const Project = () => {
                         <Image
                             src="/image/Portfolip.jpg"
                             alt="Logo"
-                            layout="fill"
-                            objectFit="cover"
+                            fill
                             className='w-full absolute rounded-t-xl'
                         />
                     </div>
@@ -42,8 +41,7 @@ const Project = () => {
                         <Image
                             src="/image/Blog20241JPG.jpg"
                             alt="Logo"
-                            layout="fill"
-                            objectFit="cover"
+                            fill
                             className='w-full absolute rounded-t-xl'
                         />
                     </div>
@@ -64,8 +62,7 @@ const Project = () => {
                         <Image
                             src="/image/Shizzle1.jpg"
                             alt="Logo"
-                            layout="fill"
-                            objectFit="cover"
+                            fill
                             className='w-full absolute rounded-t-xl'
                         />
                     </div>
