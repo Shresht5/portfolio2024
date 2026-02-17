@@ -23,7 +23,7 @@ const Contact = () => {
     return (
         <div className='View space-y-10 max-w-6xl mx-auto'>
             <div className="bg-orange-400 rounded-full inline-flex items-center text-white space-x-2 py-1 px-2 ">
-                <ImLeaf /> <span>Context Me</span>
+                <ImLeaf /> <span>Contact Me</span>
             </div>
             <div className='space-y-10'>
                 <div className='space-y-4 text-gray-800'>

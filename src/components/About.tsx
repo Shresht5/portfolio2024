@@ -18,17 +18,17 @@ const About = () => {
                 <div className='space-y-3 bg-white flex flex-col items-center p-2 rounded-lg shadow-xl'>
                     <SiLeetcode size={25} className='text-orange-400' />
                     <h1 className='text-lg font-bold'>100+</h1>
-                    <h1 className='text-gray-700'>Leetcode Quistions</h1>
+                    <h1 className='text-gray-700'>LeetCode Questions</h1>
                 </div>
                 <div className='space-y-3 bg-white flex flex-col items-center p-2 rounded-lg shadow-xl'>
                     <CgListTree size={25} className='text-orange-400' />
                     <h1 className='text-lg font-bold'>10+</h1>
-                    <h1 className='text-gray-700'>Projects created</h1>
+                    <h1 className='text-gray-700'>Projects Created</h1>
                 </div>
                 <div className='space-y-3 bg-white flex flex-col items-center p-2 rounded-lg shadow-xl'>
                     <SiStreamrunners size={25} className='text-orange-400' />
-                    <h1 className='font-bold text-lg'>currently</h1>
-                    <h1 className='text-gray-700'>available</h1>
+                    <h1 className='font-bold text-lg'>Available </h1>
+                    <h1 className='text-gray-700'>for opportunities</h1>
                 </div>
             </div>
         </div>

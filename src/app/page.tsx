@@ -37,7 +37,7 @@ export default function Home() {
                 <Image src="/image/LogoImage.png" alt="Logo" width={120} height={120} />
               </div>
               <div className="">
-                <h2 className="text-xl font-semibold ">Shreshta Balapure</h2>
+                <h2 className="text-xl font-semibold ">Shreshtha Balapure</h2>
                 <h3 className="text-center">Full stack Engineer</h3>
               </div>
               <div className="space-y-4 flex flex-col">
