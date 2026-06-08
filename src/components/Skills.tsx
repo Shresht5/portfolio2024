@@ -2,6 +2,7 @@ import React from 'react'
 import { BiLogoPostgresql } from 'react-icons/bi'
 import { FaCss3Alt, FaGitAlt, FaHtml5, FaNodeJs, FaPython, FaReact } from 'react-icons/fa'
 import { ImLeaf } from 'react-icons/im'
+import { IoLogoElectron } from 'react-icons/io5'
 import { SiExpress, SiJavascript, SiMongodb, SiNextdotjs, SiTailwindcss, SiTypescript } from 'react-icons/si'
 import { TbBrandReactNative } from 'react-icons/tb'
 
@@ -28,8 +29,25 @@ const Skills = () => {
                         <h1>JavaScript</h1>
                     </div>
                     <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
-                        <FaReact size={40} className=' text-sky-500' />
-                        <h1>React</h1>
+                        <SiTypescript size={40} className=' text-sky-700' />
+                        <h1>TypeScript</h1>
+                    </div>
+                    <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
+                        <IoLogoElectron size={40} className=' text-sky-900' />
+                        <h1>Electron</h1>
+                    </div>
+                    <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
+                        <SiNextdotjs size={40} className=' text-black' />
+                        <h1>Next.js</h1>
+                    </div>
+
+                    <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
+                        <TbBrandReactNative size={40} className=' text-sky-300' />
+                        <h1>React Native</h1>
+                    </div>
+                    <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
+                        <SiTailwindcss size={40} className=' text-sky-500' />
+                        <h1>Tailwind CSS</h1>
                     </div>
                     <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
                         <FaNodeJs size={40} className=' text-green-600' />
@@ -44,24 +62,8 @@ const Skills = () => {
                         <h1>Python</h1>
                     </div>
                     <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
-                        <SiTypescript size={40} className=' text-sky-700' />
-                        <h1>TypeScript</h1>
-                    </div>
-                    <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
                         <BiLogoPostgresql size={40} className=' text-sky-800' />
                         <h1>SQL</h1>
-                    </div>
-                    <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
-                        <SiNextdotjs size={40} className=' text-black' />
-                        <h1>Next.js</h1>
-                    </div>
-                    <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
-                        <SiTailwindcss size={40} className=' text-sky-500' />
-                        <h1>Tailwind CSS</h1>
-                    </div>
-                    <div className="bg-white p-6 rounded flex flex-col items-center space-y-3">
-                        <TbBrandReactNative size={40} className=' text-sky-300' />
-                        <h1>React Native</h1>
                     </div>
                 </div>
             </div>

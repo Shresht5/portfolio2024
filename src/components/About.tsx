@@ -17,7 +17,7 @@ const About = () => {
             <div className='flex justify-evenly'>
                 <div className='space-y-3 bg-white flex flex-col items-center p-2 rounded-lg shadow-xl'>
                     <SiLeetcode size={25} className='text-orange-400' />
-                    <h1 className='text-lg font-bold'>100+</h1>
+                    <h1 className='text-lg font-bold'>200+</h1>
                     <h1 className='text-gray-700'>LeetCode Questions</h1>
                 </div>
                 <div className='space-y-3 bg-white flex flex-col items-center p-2 rounded-lg shadow-xl'>

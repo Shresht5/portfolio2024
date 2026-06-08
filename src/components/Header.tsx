@@ -12,7 +12,7 @@ const header = () => {
                     <span className='hidden sm:block'>shreshtabalapure5@gmail.com</span>
                 </div>
             </Link>
-            <a href="/resume/jan2026.pdf" download="Shresht_Resume_jan26.pdf">
+            <a href="/resume/Shreshta_Balapure_Resume_jun2026.docx.pdf" download="Shreshta_Balapure_Resume_jun2026.docx.pdf">
                 <button className="flex items-center px-3 py-2 space-x-2 rounded-lg  text-white bg-orange-400">
                     <HiDownload />
                     <span>Resume</span>

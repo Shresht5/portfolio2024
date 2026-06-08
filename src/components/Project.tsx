@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 import { BiLogoPython, BiLogoTypescript } from 'react-icons/bi'
 import { FaArrowRight, FaTelegram } from 'react-icons/fa'
 import { ImLeaf } from 'react-icons/im'
@@ -18,7 +17,7 @@ const Project = () => {
                 <div className='View bg-white rounded-xl shadow-xl'>
                     <div className="relative pb-[50%]">
                         <Image
-                            src="/image/LuxeLoom.png"
+                            src="/image/1.jpg"
                             alt="Logo"
                             fill
                             className='w-full absolute rounded-t-xl'
@@ -50,8 +49,8 @@ const Project = () => {
 
                     </div>
                     <div className='p-2 space-y-2'>
-                        <h1 className='font-semibold text-2xl text-orange-400'>Telegram AI Bot</h1>
-                        <h1 className="text-justify">AI Agent Telegram Bot is an intelligent automation bot built using Node.js and the Telegram Bot API that handles user queries, executes tasks, and delivers real-time responses within Telegram.</h1>
+                        <h1 className='font-semibold text-2xl text-orange-400'>Education AiChat Application</h1>
+                        <h1 className="text-justify">No Doubt is a full-stack chat application built with Next.js, TypeScript, and Python for real-time messaging, JWT authentication, secure API communication, structured data management, and scalable client-server interactions.</h1>
                         <Link href='https://t.me/Tegor7Bot' target='_blank' className='inline-flex items-center hover:bg-slate-100'>
                             <h1 className='text-gray-700 mr-2'>View</h1>
                             <FaArrowRight />
@@ -61,7 +60,7 @@ const Project = () => {
                 <div className='View bg-white rounded-xl shadow-xl'>
                     <div className="relative pb-[50%]">
                         <Image
-                            src="/image/1.jpg"
+                            src="/image/3.jpg"
                             alt="Logo"
                             fill
                             className='w-full absolute rounded-t-xl'
@@ -71,7 +70,7 @@ const Project = () => {
                         <TbBrandReactNative /> <BiLogoTypescript /><SiSqlite />
                     </div>
                     <div className='p-2 space-y-2'>
-                        <h1 className='font-semibold text-2xl text-orange-400'>Vedyuk</h1>
+                        <h1 className='font-semibold text-2xl text-orange-400'>Health Care Android App</h1>
                         <h1 className="text-justify">Vedyuk is a responsive healthcare app built with React Native and Node.js that enables medication scheduling, daily reminders with notifications, stock tracking, and secure health data management.</h1>
                         <Link href='https://drive.google.com/file/d/1rX7-sEocqNY-qmvUm12U82wMUQw9YIPr/view' target='_blank' className='inline-flex items-center hover:bg-slate-100'>
                             <h1 className='text-gray-700 mr-2'>View</h1>
@@ -82,7 +81,7 @@ const Project = () => {
                 <div className='View bg-white rounded-xl shadow-xl'>
                     <div className="relative pb-[50%]">
                         <Image
-                            src="/image/Shizzle1.jpg"
+                            src="/image/4.jpg"
                             alt="Logo"
                             fill
                             className='w-full absolute rounded-t-xl'
@@ -92,8 +91,8 @@ const Project = () => {
                         <SiJavascript /><TbBrandReact /><SiMongodb />
                     </div>
                     <div className='p-2 space-y-2'>
-                        <h1 className='font-semibold text-2xl text-orange-400'>Shizzle</h1>
-                        <h1 className="text-justify">Shizzle is a responsive food ordering application built with React and Express for your business. It lets users easily browse and order food while providing secure authentication features.</h1>
+                        <h1 className='font-semibold text-2xl text-orange-400'>Desktop Business Management Software</h1>
+                        <h1 className="text-justify">Lotaxy is a desktop-based business management platform built with Electron, React, and TypeScript for managing HR, inventory, orders, projects, role-based access, local data storage, and secure business operations through a unified dashboard.</h1>
                         <Link href='https://github.com/Shresht5/Shizzle' target='_blank' className='inline-flex items-center hover:bg-slate-100'>
                             <h1 className='text-gray-700 mr-2'>View</h1>
                             <FaArrowRight />
